@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BandById from './band/BandById.js'
+import MapPopularBands from './band/MapPopularBands.js'
+import { useState } from 'react'
+import Navigation from './Navigation.js'
 
 function App() {
+  const [loadPage, setLoadPage] = useState()
+if (loadPage === 'BandById') {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BandById bandId="4176" />
+  )
+}
+if (loadPage === 'PopularBands') {
+  return (
+    <MapPopularBands />
+  )
+}
+return (
+  <Container>
+    <Navigation setLoadPage={setLoadPage}></Navigation>
+    <BandById bandId="4176" />
+    <MapPopularBands />
+  </Container>
+)
+  
 }
 
 export default App;
