@@ -5,27 +5,42 @@ import BandById from './band/BandById.js'
 import MapPopularBands from './band/MapPopularBands.js'
 import { useState } from 'react'
 import Navigation from './Navigation.js'
+import SearchBand from './band/SearchBand';
 
 function App() {
   const [loadPage, setLoadPage] = useState()
-if (loadPage === 'BandById') {
+  const [searchText, setSearchText] = useState('')
+  const [searchId, setSearchId] = useState()
+  if (loadPage === 'BandById') {
+    return (
+      <BandById bandId="4176" />
+    )
+  }
+  if (loadPage === 'PopularBands') {
+    return (
+      <MapPopularBands />
+    )
+  }
+  if (loadPage === 'SearchBand') {
+    if (searchText) {
+      /* if (searchId.typeof === 'number') {
+        return (
+          <BandById bandId={searchId} />
+        )
+      } */
+      return (
+        <SearchBand searchText={searchText} />
+      )
+    }
+  }
   return (
-    <BandById bandId="4176" />
+    <Container>
+      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
+      <BandById bandId="4176" />
+      <MapPopularBands />
+    </Container>
   )
-}
-if (loadPage === 'PopularBands') {
-  return (
-    <MapPopularBands />
-  )
-}
-return (
-  <Container>
-    <Navigation setLoadPage={setLoadPage}></Navigation>
-    <BandById bandId="4176" />
-    <MapPopularBands />
-  </Container>
-)
-  
+
 }
 
 export default App;
