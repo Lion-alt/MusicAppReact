@@ -4,7 +4,6 @@ import { Card, Container, Row, Col } from 'react-bootstrap'
 export default function PopularBand({ bands }) {
     return (
         <div className="PopularBand">
-            <h1>Popular Band</h1>
             <Container>
                 {/* Stack the columns on mobile by making one full-width and the other half-width */}
                 <Row>

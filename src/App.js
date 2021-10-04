@@ -10,46 +10,57 @@ import SearchBand from './band/SearchBand';
 function App() {
   const [loadPage, setLoadPage] = useState()
   const [searchText, setSearchText] = useState('')
-  const [searchId, setSearchId] = useState(0)
   if (loadPage === 'BandById') {
     return (
       <>
-      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
-      <BandById bandId="4176" />
+        <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText}></Navigation>
+        <Container>
+          <h1>Band by Id</h1>
+          <BandById bandId="4176" />
+        </Container>
       </>
     )
   }
   if (loadPage === 'PopularBands') {
     return (
       <>
-      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
-      <MapPopularBands />
+        <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText}></Navigation>
+        <Container>
+          <h1>Popular Bands</h1>
+          <MapPopularBands />
+        </Container>
       </>
     )
   }
   if (loadPage === 'SearchBand') {
     if (searchText) {
-      if (searchText.match(/{0-9}/)) {
+      if (searchText.match(/[0-9]{4}/)) {
+        // if Text is id
         return (
           <>
-          <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
-          <BandById bandId={searchId} />
+            <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText}></Navigation>
+            <Container>
+              <BandById bandId={searchText} />
+            </Container>
           </>
         )
       }
       return (
         <>
-        <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
-        <SearchBand searchText={searchText} />
+          <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText}></Navigation>
+          <Container>
+            <SearchBand searchText={searchText} />
+          </Container>
         </>
       )
     }
   }
   return (
     <>
-      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
+      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} ></Navigation>
       <Container>
         <BandById bandId="4176" />
+        <h2>Popular Bands</h2>
         <MapPopularBands />
       </Container>
     </>
