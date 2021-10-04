@@ -10,35 +10,49 @@ import SearchBand from './band/SearchBand';
 function App() {
   const [loadPage, setLoadPage] = useState()
   const [searchText, setSearchText] = useState('')
-  const [searchId, setSearchId] = useState()
+  const [searchId, setSearchId] = useState(0)
   if (loadPage === 'BandById') {
     return (
+      <>
+      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
       <BandById bandId="4176" />
+      </>
     )
   }
   if (loadPage === 'PopularBands') {
     return (
+      <>
+      <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
       <MapPopularBands />
+      </>
     )
   }
   if (loadPage === 'SearchBand') {
     if (searchText) {
-      /* if (searchId.typeof === 'number') {
+      if (searchText.match(/{0-9}/)) {
         return (
+          <>
+          <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
           <BandById bandId={searchId} />
+          </>
         )
-      } */
+      }
       return (
+        <>
+        <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
         <SearchBand searchText={searchText} />
+        </>
       )
     }
   }
   return (
-    <Container>
+    <>
       <Navigation setLoadPage={setLoadPage} setSearchText={setSearchText} setSearchId={setSearchId}></Navigation>
-      <BandById bandId="4176" />
-      <MapPopularBands />
-    </Container>
+      <Container>
+        <BandById bandId="4176" />
+        <MapPopularBands />
+      </Container>
+    </>
   )
 
 }

@@ -1,7 +1,7 @@
 import { Form, FormControl, Button } from 'react-bootstrap'
 import { useState } from 'react'
 export default function SearchBandForm({setSearchTextInNavigation}) {
-    const [searchText, setSearchTextLocal] = useState()
+    const [searchText, setSearchTextLocal] = useState('')
     const handleSearchSubmit = () => {
         if(searchText) {
         setSearchTextInNavigation(searchText)

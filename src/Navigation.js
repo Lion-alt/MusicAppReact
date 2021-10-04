@@ -6,7 +6,7 @@ export default function Navigation({setLoadPage, setSearchText}) {
     }
     return (
         <div>
-        <Navbar bg="dark" variant="dark" xs={6}  md={12} xxl={20}>
+        <Navbar bg="dark" variant="dark" xs={6}  md={12} xxl={100}>
           <Nav className="ml-auto">
             <Nav.Link onClick={() => handlePageChange('BandById')}>BandById</Nav.Link>
             <Nav.Link onClick={() => handlePageChange('PopularBands')}>PopularBand</Nav.Link>
