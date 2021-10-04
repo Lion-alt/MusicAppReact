@@ -32,6 +32,7 @@ export default function SearchBand({ searchText }) {
     }
     return (
         <div className="SearchBand">
+            <h1>Search Band</h1>
             <Card style={{ width: '19rem' }}>
             <Card.Header>Band With Name CATALYST equals</Card.Header>
                 <Card.Body>

@@ -31,9 +31,10 @@ export default function BandById({ bandId }) {
     }
     return (
         <div className="BandById">
+            <h1>Band by Id</h1>
             <Card style={{ width: '18rem' }}>
                 <Card.Header>Band with id 4176</Card.Header>
-                <Card.Img variant="top" src={band['url-for-image-thumb']} />
+                <Card.Img variant="top" src={band['url-for-image-thumb']} alt="band-image-thumb" />
                 <Card.Body>
                     <Card.Title>{band.name}</Card.Title>
                     <Card.Text>
