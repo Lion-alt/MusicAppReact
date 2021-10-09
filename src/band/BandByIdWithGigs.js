@@ -3,13 +3,13 @@ import {Spinner, Card} from 'react-bootstrap'
 import {useState, useEffect} from 'react'
 import BandById from './BandById';
 
-export default function GigsByBand() {
+export default function BandByIdWithGigs({bandId}) {
     const [band, setBand] = useState()
     const [error, setError] = useState()
     const [loading, setLoading] = useState(true)
     useEffect(() => {
         const abortHandler = new AbortController()
-        fetch('https://api.srgssr.ch/mx3/v2/bands/{id}/gigs', {
+        fetch(`https://api.srgssr.ch/mx3/v2/bands/${bandId}/gigs`, {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',

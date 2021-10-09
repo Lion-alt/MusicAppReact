@@ -1,20 +1,52 @@
-import { Navbar, Nav } from 'react-bootstrap'
+import {Nav} from 'react-bootstrap'
 import SearchBandForm from './SearchBandForm';
+import {Spin as Hamburger} from 'hamburger-react'
+
 export default function Navigation({setLoadPage, setSearchText}) {
-    function handlePageChange (providedPage) {
+    const [isOpen, setOpen] = useState(false)
+
+    function handlePageChange(providedPage) {
         setLoadPage(providedPage)
     }
-    return (
-        <div>
-        <Navbar bg="dark" variant="dark" xs={6}  md={12} xxl={100}>
-          <Nav className="ml-auto">
-            <Nav.Link onClick={() => handlePageChange('BandById')}>BandById</Nav.Link>
-            <Nav.Link onClick={() => handlePageChange('PopularBands')}>PopularBand</Nav.Link>
-            <Nav.Link onClick={() => handlePageChange('SearchBand')}>SearchBand</Nav.Link>
-          </Nav>
-          <SearchBandForm setSearchTextInNavigation={setSearchText}/>
-        </Navbar>
-        </div>
-    )
+
+    return (<
+        div>
+        <
+            Hamburger aria - label = "Show menu"
+        toggled={isOpen}
+        toggle={setOpen}>
+    <
+        /Hamburger>
+    <
+        Hamburger onToggle={
+        toggled => {
+            if (toggled) {
+                <
+                    Nav className="ml-auto">
+                    <
+                        Nav.Link onClick={
+                        () => handlePageChange('BandById')
+                    }> BandById < /Nav.Link> <
+                    Nav.Link onClick={
+                    () => handlePageChange('PopularBands')
+                }> PopularBand < /Nav.Link> <
+                    Nav.Link onClick={
+                    () => handlePageChange('SearchBand')
+                }> SearchBand < /Nav.Link> <
+                    Nav.Link onClick={
+                    () => handlePageChange('GigsByBand')
+                }> Gigs By Band < /Nav.Link> < /
+                    Nav>
+                <
+                    SearchBandForm setSearchTextInNavigation={setSearchText}
+                />
+            } else {
+
+            }
+        }
+    }> < /Hamburger>
+<
+       /div>
+)
 
 }
