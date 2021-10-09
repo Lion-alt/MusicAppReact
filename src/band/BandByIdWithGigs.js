@@ -1,53 +1,25 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Spinner, Card} from 'react-bootstrap'
-import {useState, useEffect} from 'react'
-import BandById from './BandById';
+import { Card } from 'react-bootstrap'
 
-export default function BandByIdWithGigs({bandId}) {
-    const [band, setBand] = useState()
-    const [error, setError] = useState()
-    const [loading, setLoading] = useState(true)
-    useEffect(() => {
-        const abortHandler = new AbortController()
-        fetch(`https://api.srgssr.ch/mx3/v2/bands/${bandId}/gigs`, {
-            signal: abortHandler.signal,
-            'headers': {
-                'Accept': 'application/json',
-                'Authorization': 'Bearer 006tF9SxIJTorS87gUbU3vBUfH6k'
-            }
-        }).then(response => response.json())
-            .then(json => setBand(json.response.bands[0]), e => setError(e))
-            .finally(() => setLoading(false))
-        return () => abortHandler.abort()
-    }, [searchText]);
+export default function BandByIdWithGigs({ concert, bandName }) {
+    return (
 
-    if (loading) {
-        return (<
-                Spinner animation="border"
-                        role="status">
-            <
-                span className="visually-hidden"> Loading... < /span> <
-            /Spinner>
-        )
-    }
-    if (error) {
-        return <h1> Something went wrong. < /h1>
-    }
-    return (<
-            div className="GigsByBand">
-            <
-                h1> Gigs By Band < /h1> <
-            Card style={
-            {width: '19rem'}}>
-            <
-                Card.Header> Band With Name CATALYST equals < /Card.Header> <
-            Card.Body>
-            <
-                BandById bandId={band.id}
-            /> <
-            Card.Text> {band.biographies[0].description} < /Card.Text> <
-        /Card.Body> <
-        /Card><
-        /div>
+                <div className="GigFromBand">
+                <Card style={
+                    { width: '18rem' }}>
+                    <Card.Header> Gig From Band {bandName} </Card.Header>
+                    <Card.Img variant="top"
+                        key={concert.id}
+                        src={concert.band['url-for-image-thumb']}
+                        alt="popularBandImageThumb" />
+                    <Card.Body >
+                        <Card.Title key={concert.id}> {concert.name} </Card.Title>
+                        <Card.Text> {concert.date['']} 
+                        </Card.Text>
+                        <Card.Text>{concert.stage.name !== undefined ? concert.stage.name : concert.stage.adress}</Card.Text>
+                    </Card.Body>
+                </Card>
+            </div>
+
     )
 }

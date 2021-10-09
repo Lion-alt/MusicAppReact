@@ -20,7 +20,7 @@ export default function SearchBandForm({setSearchTextInNavigation}) {
                 placeholder="Search"
                 className="mr-sm-2"
             />
-            <Button onClick={() => handleSearchSubmit()} variant="outline-info">
+            <Button onClick={() => handleSearchSubmit()} variant="outline-warning">
                 Search
             </Button>
         </Form>

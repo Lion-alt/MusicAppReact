@@ -1,15 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Spinner, Card} from 'react-bootstrap'
-import {useState, useEffect} from 'react'
-import BandById from './BandById';
+import { Spinner, Card } from 'react-bootstrap'
+import { useState, useEffect } from 'react'
+import MapGigsFromBand from './MapGigsFromBand';
 
-export default function GigsByBand() {
+export default function GigsByBand({ searchText }) {
     const [band, setBand] = useState()
     const [error, setError] = useState()
     const [loading, setLoading] = useState(true)
+
     useEffect(() => {
         const abortHandler = new AbortController()
-        fetch('https://api.srgssr.ch/mx3/v2/bands/{id}/gigs', {
+        fetch('https://api.srgssr.ch/mx3/v2/bands?query=' + searchText, {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',
@@ -21,33 +22,28 @@ export default function GigsByBand() {
         return () => abortHandler.abort()
     }, [searchText]);
 
+
+
     if (loading) {
-        return (<
-                Spinner animation="border"
-                        role="status">
-            <
-                span className="visually-hidden"> Loading... < /span> <
-            /Spinner>
+        return (
+            <>
+                <Spinner animation="border"
+                    role="status">
+                    <span className="visually-hidden"> Loading... </span> </Spinner>
+            </>
         )
     }
     if (error) {
-        return <h1> Something went wrong. < /h1>
+        return <h1> Something went wrong. </h1>
     }
-    return (<
-            div className="GigsByBand">
-            <
-                h1> Gigs By Band < /h1> <
-            Card style={
-            {width: '19rem'}}>
-            <
-                Card.Header> Band With Name CATALYST equals < /Card.Header> <
-            Card.Body>
-            <
-                BandById bandId={band.id}
-            /> <
-            Card.Text> {band.biographies[0].description} < /Card.Text> <
-        /Card.Body> <
-        /Card><
-        /div>
+    return (
+        <div className="GigsByBand">
+            <Card style={
+                { width: '19rem' }}>
+                <Card.Body>
+                    <MapGigsFromBand bandId={band.id}></MapGigsFromBand>
+                </Card.Body>
+            </Card>
+        </div>
     )
 }
