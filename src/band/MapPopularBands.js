@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
-import { Spinner } from 'react-bootstrap'
+import {Spinner} from 'react-bootstrap'
 import PopularBand from './PopularBand.js'
+
 export default function MapPopularBands() {
     const [popularBands, setBand] = useState()
     const [error, setError] = useState()
@@ -16,20 +17,36 @@ export default function MapPopularBands() {
             }
         }).then(response => response.json())
             .then(json => setBand(json.response.bands.band), e => setError(e))
-            .finally(() =>setLoading(false))
+            .finally(() => setLoading(false))
         return () => abortHandler.abort()
     }, []);
 
-    if(loading) {
-        return (
-            <Spinner animation="border" role="status">
-                <span className="visually-hidden">Loading...</span>
-            </Spinner>
+    if (loading) {
+        return (<
+                Spinner animation="border"
+                        role="status">
+            <
+                span className="visually-hidden"> Loading... < /span> <
+            /Spinner>
         )
     }
 
-    if(error) {
-        return <p>An error occurred</p>
+    if (error) {
+        return <p> An error occurred < /p>
     }
-    return popularBands.map(band => <PopularBand key={"bandlist"+band.name} bands={band} />)
+    return ( /* Stack the columns on mobile by making one full-width and the other half-width */ <
+            Container>
+            <
+                Row>
+                <
+                    Col xs={12}
+                        md={14}
+                        xxl={16}> {
+                    this.popularBands.map(band => < PopularBand key={"bandlist" + band.name}
+                                                                bands={band}
+                    />)} <
+                    /Col> <
+                    /Row> <
+                    /Container>
+    )
 }
