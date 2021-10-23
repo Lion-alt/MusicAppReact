@@ -4,32 +4,48 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BandById from './band/BandById.js'
 import MapPopularBands from './band/MapPopularBands.js'
 import { useState } from 'react'
-import Navigation from './Navigation.js'
+import NavBar from './Navigation/NavBar.js'
 import SearchBand from './band/SearchBand';
 import GigsByBand from './band/GigsByBand';
 import MapGigsFromBand from './band/MapGigsFromBand';
+import classes from './App.css'
 
 function App() {
     const [loadPage, setLoadPage] = useState()
     const [searchText, setSearchText] = useState('')
     if (loadPage === 'BandById') {
-        return (
-            <>
-                <Navigation setLoadPage={setLoadPage}
-                    setSearchText={setSearchText} > </Navigation>
-                <Container >
-                    <h1> Band by Id </h1>
-                    <BandById bandId="4176" />
-                </Container>
-            </>
-        )
+        if (searchText) {
+            if (searchText.match(/[0-9]/)) {
+                // if Text is id
+                return (
+                    <>
+                        <NavBar setLoadPage={setLoadPage}
+                            setSearchText={setSearchText} > </NavBar>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <Container className={classes.margin}>
+                            <BandById bandId={searchText}
+                            />
+                        </Container>
+                    </>
+                )
+            }
+        }
     }
     if (loadPage === 'PopularBands') {
         return (
             <>
-                <Navigation setLoadPage={setLoadPage}
-                    setSearchText={setSearchText} > </Navigation>
-                <Container >
+                <NavBar setLoadPage={setLoadPage}
+                    setSearchText={setSearchText} > 
+                </NavBar>
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <Container className={classes.margin}>
                     <h1 > Popular Bands </h1>
                     <MapPopularBands />
                 </Container>
@@ -42,9 +58,13 @@ function App() {
                 // if Text is id
                 return (
                     <>
-                        <Navigation setLoadPage={setLoadPage}
-                            setSearchText={setSearchText} > </Navigation>
-                        <Container >
+                        <NavBar setLoadPage={setLoadPage}
+                            setSearchText={setSearchText} > </NavBar>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <Container className={classes.margin}>
                             <BandById bandId={searchText}
                             />
                         </Container>
@@ -53,8 +73,13 @@ function App() {
             }
             return (
                 <>
-                    <Navigation setLoadPage={setLoadPage}
-                        setSearchText={setSearchText} > </Navigation> <Container >
+                    <NavBar setLoadPage={setLoadPage}
+                        setSearchText={setSearchText} > </NavBar>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <Container className={classes.margin}>
                         <SearchBand searchText={searchText}
                         /> </Container>
                 </>
@@ -66,17 +91,26 @@ function App() {
             if (searchText.match(/[0-9]/)) {
                 return (
                     <>
-                        <Navigation setLoadPage={setLoadPage}
-                            setSearchText={setSearchText} > </Navigation>  <Container >
+                        <NavBar setLoadPage={setLoadPage}
+                            setSearchText={setSearchText} > </NavBar>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <Container className={classes.margin}>
                             <MapGigsFromBand bandId={searchText} > </MapGigsFromBand>
                         </Container>
                     </>
                 )
             }
             return (
-                <> < Navigation setLoadPage={setLoadPage}
-                    setSearchText={setSearchText} > </Navigation>
-                    <Container >
+                <> < NavBar setLoadPage={setLoadPage}
+                    setSearchText={setSearchText} > </NavBar>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }} className={classes.margin}>
                         <GigsByBand searchText={searchText} > </GigsByBand>
                     </Container>
                 </ >
@@ -85,8 +119,13 @@ function App() {
     }
     return (
         <>
-            <Navigation setLoadPage={setLoadPage}
-                setSearchText={setSearchText} > </Navigation> <Container >
+            <NavBar setLoadPage={setLoadPage}
+                setSearchText={setSearchText} > </NavBar>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Container className={classes.margin}>
                 <Row >
                     <BandById bandId="4176" />
                 </Row> <h2 > Popular Bands </h2>

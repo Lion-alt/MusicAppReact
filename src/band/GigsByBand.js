@@ -34,16 +34,11 @@ export default function GigsByBand({ searchText }) {
         )
     }
     if (error) {
-        return <h1> Something went wrong. </h1>
+        return  alert('Your band doesn`t have gigs')
     }
     return (
-        <div className="GigsByBand">
-            <Card style={
-                { width: '19rem' }}>
-                <Card.Body>
+        <div style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }} className="GigsByBand">
                     <MapGigsFromBand bandId={band.id}></MapGigsFromBand>
-                </Card.Body>
-            </Card>
         </div>
     )
 }

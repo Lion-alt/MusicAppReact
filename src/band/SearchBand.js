@@ -28,7 +28,7 @@ export default function SearchBand({ searchText }) {
         )
     }
     if (error) {
-        return <h1>Something went wrong.</h1>
+        return <p>An error occurred{alert('The searched band doesn`t exist')}</p> 
     }
     return (
         <div className="SearchBand">

@@ -17,6 +17,7 @@ export default function PopularBand({ bands }) {
                     </Card.Text>
                 </Card.Body>
             </Card>
+            <br></br>
         </div>
     )
 }

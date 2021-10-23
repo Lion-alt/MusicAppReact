@@ -31,17 +31,15 @@ export default function MapGigsFromBand({ bandId }) {
         )
     }
     if (error) {
-        return <h1> Something went wrong. </h1>
+        return <p>An error occurred{alert('No gigs here :)')}</p >
     }
     return (
         <>
-            <Container>
-                <Card.Header>Band With Id {bandId}</Card.Header>
-                <Row> {
-                    gigsFromBand?.map(gig => < BandByIdWithGigs key={"bandlist" + gig.name}
+            <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }}>
+                 {
+                    gigsFromBand?.map(gig => <Row>< BandByIdWithGigs key={"bandlist" + gig.name}
                         concert={gig} bandName={gig.band.name}
-                    />)}
-                </Row>
+                    /></Row>)}
             </Container>
 
         </>

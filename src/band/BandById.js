@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Spinner, Card } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
-export default function BandById({ bandId }) {
+export default function BandById({ bandId, searchText }) {
     const [band, setBand] = useState()
     const [error, setError] = useState()
     const [loading, setLoading] = useState(true)
@@ -11,7 +11,7 @@ export default function BandById({ bandId }) {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',
-                'Authorization': 'Bearer r7ux3zaMsYj2C8Bf6xWVYN1Hjdus'
+                'Authorization': 'Bearer XatPawyY3GAASVjtXIG1qr2FfB0g'
             }
         }).then(response => response.json())
             .then(json => setBand(json.response.band), e => setError(e))
@@ -27,7 +27,7 @@ export default function BandById({ bandId }) {
         )
     }
     if(error) {
-        return <p>An error occurred</p>
+        return <p>An error occurred </p>
     }
     return (
         <div className="BandById">
