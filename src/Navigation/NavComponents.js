@@ -1,7 +1,7 @@
 import { Nav } from 'react-bootstrap'
 import classes from './NavBar.module.css'
 import { motion } from 'framer-motion'
-import SearchBandForm from '../SearchBandForm';
+import SearchBandForm from './SearchBandForm';
 export default function NavLinks ({ setLoadPage, isMobile, closeMobileMenu, setSearchText }) {
     const animateFrom = { opacity: 0, y: -40 }
     const animateTo = { opacity: 1, y: 0 }

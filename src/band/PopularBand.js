@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 export default function PopularBand({ bands }) {
     return (
         <div className="PopularBand">
-            <Card style={
+            <Card aria-live="polite" style={
                 { width: '18rem' }}>
                 <Card.Header> Popular Band </Card.Header>
                 <Card.Img variant="top"

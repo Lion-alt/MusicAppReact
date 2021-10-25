@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Spinner, Card, Container, Row } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import BandByIdWithGigs from './BandByIdWithGigs';
+import FullScreenSpinner from '../FullScreenSpinner';
 export default function MapGigsFromBand({ bandId }) {
     const [gigsFromBand, setgigsFromBand] = useState([])
     const [error, setError] = useState()
@@ -12,7 +13,7 @@ export default function MapGigsFromBand({ bandId }) {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',
-                'Authorization': 'Bearer vkVujGtvHIv0QYseZmSLQie8GLYd'
+                'Authorization': 'Bearer v2tSmdqvKIEgmWA4VXFUH8OmXSkv'
             }
         }).then(response => response.json())
             .then(json => setgigsFromBand(json.response.performances.performance), e => setError(e))
@@ -24,10 +25,7 @@ export default function MapGigsFromBand({ bandId }) {
 
     if (loading) {
         return (
-            <Spinner animation="border"
-                role="status">
-                <span className="visually-hidden"> Loading... </span>
-            </Spinner>
+            <FullScreenSpinner />
         )
     }
     if (error) {
@@ -35,11 +33,13 @@ export default function MapGigsFromBand({ bandId }) {
     }
     return (
         <>
-            <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }}>
+            <Container style={{display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }}>
+            <Row xs={1} md={2} lg={3} aria-live="polite" >
                  {
-                    gigsFromBand?.map(gig => <Row>< BandByIdWithGigs key={"bandlist" + gig.name}
+                    gigsFromBand?.map(gig => < BandByIdWithGigs key={"bandlist" + gig['stage-name']}
                         concert={gig} bandName={gig.band.name}
-                    /></Row>)}
+                    />)}
+                    </Row>
             </Container>
 
         </>

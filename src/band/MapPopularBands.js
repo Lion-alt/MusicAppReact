@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { Spinner, Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
+import FullScreenSpinner from '../FullScreenSpinner.js'
 import PopularBand from './PopularBand.js'
 export default function MapPopularBands() {
     const [popularBands, setBand] = useState()
@@ -8,11 +9,11 @@ export default function MapPopularBands() {
 
     useEffect(() => {
         const abortHandler = new AbortController()
-        fetch('popularBands.json', {
+        fetch('https://api.srgssr.ch/mx3/v2/bands/popular', {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',
-                'Authorization': 'Bearer YIGQRxu12ThvbJUWnDAPGjMBIESC'
+                'Authorization': 'Bearer ykDwfwGVX1Z3GFZLnuqTbgKFakGn'
             }
         }).then(response => response.json())
             .then(json => setBand(json.response.bands.band), e => setError(e))
@@ -22,30 +23,23 @@ export default function MapPopularBands() {
 
     if (loading) {
         return (
-            <>
-                <Spinner animation="border"
-                    role="status" >
-                    <span className="visually-hidden" > Loading... </span>
-                </Spinner>
-            </>
+            <FullScreenSpinner />
         )
     }
 
     if (error) {
-        return <p>An error occurred{alert('no bands here')}</p>
+        return <p>An error occurred</p>
     }
     return ( /* Stack the columns on mobile by making one full-width and the other half-width */
-        <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }}>
+        <Container style={{display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }}>
+                                  <Row aria-live="polite" xs={1} md={2} lg={3}>
 {
-                      
                       popularBands.map((band) => 
-                      <div>
-                          <Row>< PopularBand  key={"bandlist" + band.name}
+                          < PopularBand  key={"bandlist" + band.name}
                           bands={band}
-                      /></Row>
-                      </div>
-                     
+                      />
                    )}
+                   </Row>
 
         </Container>
     )

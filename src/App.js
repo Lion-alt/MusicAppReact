@@ -98,7 +98,7 @@ function App() {
                         <br></br>
                         <br></br>
                         <Container className={classes.margin}>
-                            <MapGigsFromBand bandId={searchText} > </MapGigsFromBand>
+                            <MapGigsFromBand bandId={searchText} />
                         </Container>
                     </>
                 )
@@ -110,8 +110,8 @@ function App() {
                     <br></br>
                     <br></br>
                     <br></br>
-                    <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }} className={classes.margin}>
-                        <GigsByBand searchText={searchText} > </GigsByBand>
+                    <Container style={{display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }} className={classes.margin}>
+                        <GigsByBand searchText={searchText} />
                     </Container>
                 </ >
             )

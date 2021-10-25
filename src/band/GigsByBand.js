@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Spinner, Card } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import MapGigsFromBand from './MapGigsFromBand';
+import FullScreenSpinner from '../FullScreenSpinner';
 
 export default function GigsByBand({ searchText }) {
     const [band, setBand] = useState()
@@ -14,7 +14,7 @@ export default function GigsByBand({ searchText }) {
             signal: abortHandler.signal,
             'headers': {
                 'Accept': 'application/json',
-                'Authorization': 'Bearer 006tF9SxIJTorS87gUbU3vBUfH6k'
+                'Authorization': 'Bearer dDaIzIKbTe4EYc2keXv6w0KGv31u'
             }
         }).then(response => response.json())
             .then(json => setBand(json.response.bands[0]), e => setError(e))
@@ -26,18 +26,14 @@ export default function GigsByBand({ searchText }) {
 
     if (loading) {
         return (
-            <>
-                <Spinner animation="border"
-                    role="status">
-                    <span className="visually-hidden"> Loading... </span> </Spinner>
-            </>
+            <FullScreenSpinner />
         )
     }
     if (error) {
         return  alert('Your band doesn`t have gigs')
     }
     return (
-        <div style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }} className="GigsByBand">
+        <div style={{display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }} className="GigsByBand">
                     <MapGigsFromBand bandId={band.id}></MapGigsFromBand>
         </div>
     )

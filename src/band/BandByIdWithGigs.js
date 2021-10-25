@@ -4,8 +4,8 @@ import { Card, Container, Row } from 'react-bootstrap'
 export default function BandByIdWithGigs({ concert, bandName }) {
     return (
 
-                <Container style={{display: 'flex', flexDirection: 'right', 'flex-flow': 'wrap' }} className="GigFromBand">
-                    <Row>
+                <Container style={{display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }} className="GigFromBand">
+                    <Row xs={1} md={2} lg={3} arial-live="polite">
                 <Card style={
                     { width: '18rem' }}>
                     <Card.Header> Gig From Band {bandName} </Card.Header>
