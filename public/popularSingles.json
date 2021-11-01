@@ -1,0 +1,720 @@
+{
+    "response": {
+        "status": "Ok",
+        "code": "0",
+        "playlist": {
+            "id": null,
+            "name": "Popular singles",
+            "owner": null,
+            "singles": [
+                {
+                    "id": 4976,
+                    "title": "Vae Soli",
+                    "permalink": "https://mx3.ch/t/1ig",
+                    "album": "Between Heaven And Hell",
+                    "rating_count": null,
+                    "length": 231,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.nonstopmusic.ch/derPHPordner/nonstop04/frameindex.php",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/4976/square_large/between-heaven-and-hell_cov.jpg?1157798768",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/4976/square_small/between-heaven-and-hell_cov.jpg?1157798768",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/4976/square_small/between-heaven-and-hell_cov.jpg?1157798768",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/4976/original/between-heaven-and-hell_cov.jpg?1157798768",
+                    "embed_url": "https://mx3.ch/t/1ig/embed",
+                    "band": {
+                        "id": 56,
+                        "name": "Ever Since",
+                        "permalink": "https://mx3.ch/ever_since",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0014/square_small/BOTG_cover_web.jpg?1398329208",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0014/square_small/BOTG_cover_web.jpg?1398329208",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0014/square_small/BOTG_cover_web.jpg?1398329208",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0014/original/BOTG_cover_web.jpg?1398329208",
+                        "categories": [
+                            {
+                                "id": 21,
+                                "name": "Metal Punk HxC"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 21,
+                        "name": "Metal Punk HxC"
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Au verso de ce monde",
+                    "permalink": "https://mx3.ch/t/l",
+                    "album": "Jour blanc",
+                    "rating_count": null,
+                    "length": 229,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": null,
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/0021/square_large/polar_web_jpg.jpg?1156843878",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/0021/square_small/polar_web_jpg.jpg?1156843878",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/0021/square_small/polar_web_jpg.jpg?1156843878",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/0021/original/polar_web_jpg.jpg?1156843878",
+                    "embed_url": "https://mx3.ch/t/l/embed",
+                    "band": {
+                        "id": 166,
+                        "name": "POLAR",
+                        "permalink": "https://mx3.ch/polar",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0033/square_small/Polar_21_Yann_orhan.jpg?1398329393",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0033/square_small/Polar_21_Yann_orhan.jpg?1398329393",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0033/square_small/Polar_21_Yann_orhan.jpg?1398329393",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0033/original/Polar_21_Yann_orhan.jpg?1398329393",
+                        "categories": [
+                            {
+                                "id": 1,
+                                "name": "Chanson"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 41,
+                        "name": "Rock"
+                    }
+                },
+                {
+                    "id": 71252,
+                    "title": "ndi-yam",
+                    "permalink": "https://mx3.ch/t/ixe",
+                    "album": "ndi-yam",
+                    "rating_count": null,
+                    "length": 341,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.syllaka.com",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0007/1252/square_large/kara-2005.jpg?1252324727",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0007/1252/square_small/kara-2005.jpg?1252324727",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0007/1252/square_small/kara-2005.jpg?1252324727",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0007/1252/original/kara-2005.jpg?1252324727",
+                    "embed_url": "https://mx3.ch/t/ixe/embed",
+                    "band": {
+                        "id": 136,
+                        "name": "KARA SYLLA KA",
+                        "permalink": "https://mx3.ch/kara",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0095/3006/square_small/kara-sylla-ka.jpg?1580722860",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0095/3006/square_small/kara-sylla-ka.jpg?1580722860",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0095/3006/square_small/kara-sylla-ka.jpg?1580722860",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0095/3006/original/kara-sylla-ka.jpg?1580722860",
+                        "categories": [
+                            {
+                                "id": 56,
+                                "name": "World latin traditionnel"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 56,
+                        "name": "World latin traditionnel"
+                    }
+                },
+                {
+                    "id": 4951,
+                    "title": "Your Grace",
+                    "permalink": "https://mx3.ch/t/1hR",
+                    "album": "On Air",
+                    "rating_count": null,
+                    "length": 281,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.everglowmusic.com",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/4951/square_large/pochetteC3.jpg?1157796417",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/4951/square_small/pochetteC3.jpg?1157796417",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/4951/square_small/pochetteC3.jpg?1157796417",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/4951/original/pochetteC3.jpg?1157796417",
+                    "embed_url": "https://mx3.ch/t/1hR/embed",
+                    "band": {
+                        "id": 11,
+                        "name": "Everglow",
+                        "permalink": "https://mx3.ch/everglow",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0006/square_small/groupe_C3.jpg?1398329108",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0006/square_small/groupe_C3.jpg?1398329108",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0006/square_small/groupe_C3.jpg?1398329108",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0006/original/groupe_C3.jpg?1398329108",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 46,
+                        "name": "Pop"
+                    }
+                },
+                {
+                    "id": 39176,
+                    "title": "Swiss Time",
+                    "permalink": "https://mx3.ch/t/abS",
+                    "album": null,
+                    "rating_count": null,
+                    "length": 93,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": null,
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0003/9176/square_large/Pascalavatar80.jpg?1194824003",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0003/9176/square_small/Pascalavatar80.jpg?1194824003",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0003/9176/square_small/Pascalavatar80.jpg?1194824003",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0003/9176/original/Pascalavatar80.jpg?1194824003",
+                    "embed_url": "https://mx3.ch/t/abS/embed",
+                    "band": {
+                        "id": 51,
+                        "name": "Michto Swing",
+                        "permalink": "https://mx3.ch/michto_swing",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0013/square_small/michto_swing.jpg?1398329197",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0013/square_small/michto_swing.jpg?1398329197",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0013/square_small/michto_swing.jpg?1398329197",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0013/original/michto_swing.jpg?1398329197",
+                        "categories": [
+                            {
+                                "id": 31,
+                                "name": "Jazz - musiques improvisées"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 31,
+                        "name": "Jazz - musiques improvisées"
+                    }
+                },
+                {
+                    "id": 205543,
+                    "title": "Bastards",
+                    "permalink": "https://mx3.ch/t/Rtd",
+                    "album": null,
+                    "rating_count": null,
+                    "length": 0,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": null,
+                    "url_for_image_thumb": "https://mx3.ch/assets/missing/missing_track_square_large-71130e73af1337b0e7fe00fe7e0e3630a395e38a2779310581180c0689aa9d22.jpg",
+                    "url_for_image_head": "https://mx3.ch/assets/missing/missing_track_square_small-23b0743aa0d0e578b5c6696acf1ce22ed7e4676d9299d2ce8eee909dc6b4583c.jpg",
+                    "url_for_image_list": "https://mx3.ch/assets/missing/missing_track_square_small-23b0743aa0d0e578b5c6696acf1ce22ed7e4676d9299d2ce8eee909dc6b4583c.jpg",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0022/0256/original/frame_0000.png?1443525979",
+                    "embed_url": "https://mx3.ch/t/Rtd/embed",
+                    "band": {
+                        "id": 76,
+                        "name": "MINGMEN",
+                        "permalink": "https://mx3.ch/mingmen",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0086/6328/square_small/unnamed.jpg?1511447020",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0086/6328/square_small/unnamed.jpg?1511447020",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0086/6328/square_small/unnamed.jpg?1511447020",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0086/6328/original/unnamed.jpg?1511447020",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 21,
+                        "name": "Metal Punk HxC"
+                    }
+                },
+                {
+                    "id": 776,
+                    "title": "Help Me",
+                    "permalink": "https://mx3.ch/t/cw",
+                    "album": null,
+                    "rating_count": null,
+                    "length": 294,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.compost-records.com",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/0776/square_large/alexavatar.jpg?1156978510",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/0776/square_small/alexavatar.jpg?1156978510",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/0776/square_small/alexavatar.jpg?1156978510",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/0776/original/alexavatar.jpg?1156978510",
+                    "embed_url": "https://mx3.ch/t/cw/embed",
+                    "band": {
+                        "id": 201,
+                        "name": "Alex Attias",
+                        "permalink": "https://mx3.ch/alex_attias",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0082/8908/square_small/image_1-copy.jpg?1477220908",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0082/8908/square_small/image_1-copy.jpg?1477220908",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0082/8908/square_small/image_1-copy.jpg?1477220908",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0082/8908/original/image_1-copy.jpg?1477220908",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "name": "Funk R&B Soul"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 16,
+                        "name": "Funk R&B Soul"
+                    }
+                },
+                {
+                    "id": 22518,
+                    "title": "Les Filles sur le Chantier",
+                    "permalink": "https://mx3.ch/t/5Rc",
+                    "album": null,
+                    "rating_count": null,
+                    "length": 270,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": null,
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0002/2518/square_large/femme.jpg?1170965176",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0002/2518/square_small/femme.jpg?1170965176",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0002/2518/square_small/femme.jpg?1170965176",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0002/2518/original/femme.jpg?1170965176",
+                    "embed_url": "https://mx3.ch/t/5Rc/embed",
+                    "band": {
+                        "id": 26,
+                        "name": "Jimi Trip",
+                        "permalink": "https://mx3.ch/jimi_trip",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0008/square_small/Dim_cheval_Nyon_resample.jpg?1398329140",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0008/square_small/Dim_cheval_Nyon_resample.jpg?1398329140",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0008/square_small/Dim_cheval_Nyon_resample.jpg?1398329140",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0008/original/Dim_cheval_Nyon_resample.jpg?1398329140",
+                        "categories": [
+                            {
+                                "id": 6,
+                                "name": "Electro trip hop - ambient"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 6,
+                        "name": "Electro trip hop - ambient"
+                    }
+                },
+                {
+                    "id": 1311,
+                    "title": "Pink Sheep",
+                    "permalink": "https://mx3.ch/t/l9",
+                    "album": "la promenade du micocoulier rose",
+                    "rating_count": null,
+                    "length": 283,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.cede.ch/fr/music-cd/frames/frameset.cfm?aobj=588769",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/1311/square_large/front.jpg?1157037803",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/1311/square_small/front.jpg?1157037803",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/1311/square_small/front.jpg?1157037803",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/1311/original/front.jpg?1157037803",
+                    "embed_url": "https://mx3.ch/t/l9/embed",
+                    "band": {
+                        "id": 146,
+                        "name": "brainless",
+                        "permalink": "https://mx3.ch/brainless",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0029/square_small/tete.jpg?1398329333",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0029/square_small/tete.jpg?1398329333",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0029/square_small/tete.jpg?1398329333",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0029/original/tete.jpg?1398329333",
+                        "categories": [
+                            {
+                                "id": 16,
+                                "name": "Funk R&B Soul"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 16,
+                        "name": "Funk R&B Soul"
+                    }
+                },
+                {
+                    "id": 6866,
+                    "title": "BITCHER",
+                    "permalink": "https://mx3.ch/t/1MK",
+                    "album": "Fucking Beauty",
+                    "rating_count": null,
+                    "length": 304,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.europamp3.org/groups/CHIVO/song/one?product_id=14195",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/6866/square_large/banner_fucking_beauty_small.jpg?1158009661",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/6866/square_small/banner_fucking_beauty_small.jpg?1158009661",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/6866/square_small/banner_fucking_beauty_small.jpg?1158009661",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/6866/original/banner_fucking_beauty_small.jpg?1158009661",
+                    "embed_url": "https://mx3.ch/t/1MK/embed",
+                    "band": {
+                        "id": 211,
+                        "name": "chivo",
+                        "permalink": "https://mx3.ch/chivo",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0041/square_small/banner_logo.jpg?1398329465",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0041/square_small/banner_logo.jpg?1398329465",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0041/square_small/banner_logo.jpg?1398329465",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0041/original/banner_logo.jpg?1398329465",
+                        "categories": [
+                            {
+                                "id": 51,
+                                "name": "Techno dj dance"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 51,
+                        "name": "Techno dj dance"
+                    }
+                },
+                {
+                    "id": 1926,
+                    "title": "Back to Silent Hill",
+                    "permalink": "https://mx3.ch/t/v4",
+                    "album": "Mutation Nation",
+                    "rating_count": null,
+                    "length": 71,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.phontastic.ch/phontastic/FMPro?-db=ptProduct.fp5&-format=f_shopdetail.html&-lay=form_product&SNr_Product=321566&-find",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/1926/square_large/mg_cover_mn.jpg?1157140207",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/1926/square_small/mg_cover_mn.jpg?1157140207",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/1926/square_small/mg_cover_mn.jpg?1157140207",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/1926/original/mg_cover_mn.jpg?1157140207",
+                    "embed_url": "https://mx3.ch/t/v4/embed",
+                    "band": {
+                        "id": 186,
+                        "name": "Morbus Gravis",
+                        "permalink": "https://mx3.ch/morbus_gravis",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0037/square_small/mg_photo_promo1.jpg?1398329435",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0037/square_small/mg_photo_promo1.jpg?1398329435",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0037/square_small/mg_photo_promo1.jpg?1398329435",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0037/original/mg_photo_promo1.jpg?1398329435",
+                        "categories": [
+                            {
+                                "id": 21,
+                                "name": "Metal Punk HxC"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 21,
+                        "name": "Metal Punk HxC"
+                    }
+                },
+                {
+                    "id": 741,
+                    "title": "Monday's Wedding",
+                    "permalink": "https://mx3.ch/t/bX",
+                    "album": "Stevans",
+                    "rating_count": null,
+                    "length": 150,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "https://itunes.apple.com/ch/album/mondays-wedding/1116097704?i=1116097785&l=fr",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/0741/square_large/STEVANS_COVER_5x5cm_72dpi.jpg?1156977459",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/0741/square_small/STEVANS_COVER_5x5cm_72dpi.jpg?1156977459",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/0741/square_small/STEVANS_COVER_5x5cm_72dpi.jpg?1156977459",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/0741/original/STEVANS_COVER_5x5cm_72dpi.jpg?1156977459",
+                    "embed_url": "https://mx3.ch/t/bX/embed",
+                    "band": {
+                        "id": 91,
+                        "name": "STEVANS",
+                        "permalink": "https://mx3.ch/stevans",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0100/8910/square_small/stevans5_club-med-1.jpg?1624605287",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0100/8910/square_small/stevans5_club-med-1.jpg?1624605287",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0100/8910/square_small/stevans5_club-med-1.jpg?1624605287",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0100/8910/original/stevans5_club-med-1.jpg?1624605287",
+                        "categories": [
+                            {
+                                "id": 46,
+                                "name": "Pop"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 46,
+                        "name": "Pop"
+                    }
+                },
+                {
+                    "id": 13510,
+                    "title": "Growing Confusion",
+                    "permalink": "https://mx3.ch/t/3vU",
+                    "album": "La pointe Farinet, 2'949 m. ",
+                    "rating_count": null,
+                    "length": 258,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.gentlemen.ch",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0035/square_large/velmadadone2.jpg?1398329421",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0035/square_small/velmadadone2.jpg?1398329421",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0035/square_small/velmadadone2.jpg?1398329421",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0035/original/velmadadone2.jpg?1398329421",
+                    "embed_url": "https://mx3.ch/t/3vU/embed",
+                    "band": {
+                        "id": 176,
+                        "name": "Velma",
+                        "permalink": "https://mx3.ch/velma",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0035/square_small/velmadadone2.jpg?1398329421",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0035/square_small/velmadadone2.jpg?1398329421",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0035/square_small/velmadadone2.jpg?1398329421",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0035/original/velmadadone2.jpg?1398329421",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 41,
+                        "name": "Rock"
+                    }
+                },
+                {
+                    "id": 92274,
+                    "title": "Ex-On",
+                    "permalink": "https://mx3.ch/t/o0i",
+                    "album": "The Early Years (1998-2000)",
+                    "rating_count": null,
+                    "length": 198,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://itunes.apple.com/us/artist/magnetfisch/id210165764?ign-mpt=uo%3D4",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0009/2274/square_large/COVER_TEY.jpg?1288954011",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0009/2274/square_small/COVER_TEY.jpg?1288954011",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0009/2274/square_small/COVER_TEY.jpg?1288954011",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0009/2274/original/COVER_TEY.jpg?1288954011",
+                    "embed_url": "https://mx3.ch/t/o0i/embed",
+                    "band": {
+                        "id": 171,
+                        "name": "Magnetfisch",
+                        "permalink": "https://mx3.ch/magnetfisch",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0032/1154/square_small/Lieder_Maximo_Cover_Small.jpg?1405379999",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0032/1154/square_small/Lieder_Maximo_Cover_Small.jpg?1405379999",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0032/1154/square_small/Lieder_Maximo_Cover_Small.jpg?1405379999",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0032/1154/original/Lieder_Maximo_Cover_Small.jpg?1405379999",
+                        "categories": [
+                            {
+                                "id": 46,
+                                "name": "Pop"
+                            },
+                            {
+                                "id": 6,
+                                "name": "Electro trip hop - ambient"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 6,
+                        "name": "Electro trip hop - ambient"
+                    }
+                },
+                {
+                    "id": 2391,
+                    "title": "Polyloop02",
+                    "permalink": "https://mx3.ch/t/Cz",
+                    "album": "Alone",
+                    "rating_count": null,
+                    "length": 157,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.denisbeuret.ch",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/2391/square_large/Alone.jpg?1157282868",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/2391/square_small/Alone.jpg?1157282868",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/2391/square_small/Alone.jpg?1157282868",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/2391/original/Alone.jpg?1157282868",
+                    "embed_url": "https://mx3.ch/t/Cz/embed",
+                    "band": {
+                        "id": 111,
+                        "name": "Denis Beuret",
+                        "permalink": "https://mx3.ch/denis_beuret",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0022/square_small/P100022b.jpg?1398329281",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0022/square_small/P100022b.jpg?1398329281",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0022/square_small/P100022b.jpg?1398329281",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0022/original/P100022b.jpg?1398329281",
+                        "categories": [
+                            {
+                                "id": 31,
+                                "name": "Jazz - musiques improvisées"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 31,
+                        "name": "Jazz - musiques improvisées"
+                    }
+                },
+                {
+                    "id": 47081,
+                    "title": "DIfferent Not Strange - ALBUM -",
+                    "permalink": "https://mx3.ch/t/cfn",
+                    "album": "Different not Strange",
+                    "rating_count": null,
+                    "length": 292,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=297298077&s=143459",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0004/7081/square_large/PLAIN-DNS_MX3.jpg?1208702926",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0004/7081/square_small/PLAIN-DNS_MX3.jpg?1208702926",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0004/7081/square_small/PLAIN-DNS_MX3.jpg?1208702926",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0004/7081/original/PLAIN-DNS_MX3.jpg?1208702926",
+                    "embed_url": "https://mx3.ch/t/cfn/embed",
+                    "band": {
+                        "id": 41,
+                        "name": "PLAIN",
+                        "permalink": "https://mx3.ch/plain",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0011/square_small/PLAIN_MX3.jpg?1398329183",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0011/square_small/PLAIN_MX3.jpg?1398329183",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0011/square_small/PLAIN_MX3.jpg?1398329183",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0011/original/PLAIN_MX3.jpg?1398329183",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 41,
+                        "name": "Rock"
+                    }
+                },
+                {
+                    "id": 46,
+                    "title": "The Secret Of The Zombies",
+                    "permalink": "https://mx3.ch/t/K",
+                    "album": "Zombiparti!",
+                    "rating_count": null,
+                    "length": 172,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.amazon.fr/Zombiparti-/dp/B000CETP82/sr=1-1/qid=1156850867/ref=sr_1_1/403-9906939-6408403?ie=UTF8&s=music",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/0046/square_large/zombiparti.jpg?1156856929",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/0046/square_small/zombiparti.jpg?1156856929",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/0046/square_small/zombiparti.jpg?1156856929",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/0046/original/zombiparti.jpg?1156856929",
+                    "embed_url": "https://mx3.ch/t/K/embed",
+                    "band": {
+                        "id": 96,
+                        "name": "kid chocolat",
+                        "permalink": "https://mx3.ch/kid_chocolat",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0030/0020/square_small/KALEIDOSCOPE.jpg?1398329261",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0030/0020/square_small/KALEIDOSCOPE.jpg?1398329261",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0030/0020/square_small/KALEIDOSCOPE.jpg?1398329261",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0030/0020/original/KALEIDOSCOPE.jpg?1398329261",
+                        "categories": [
+                            {
+                                "id": 6,
+                                "name": "Electro trip hop - ambient"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 6,
+                        "name": "Electro trip hop - ambient"
+                    }
+                },
+                {
+                    "id": 526,
+                    "title": "Born Again (To Numb The Pain)",
+                    "permalink": "https://mx3.ch/t/8u",
+                    "album": "Topping From Below",
+                    "rating_count": null,
+                    "length": 183,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.pmt1.com/buy_klik_pay/buy_cd_topping_eng.htm",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/0526/square_large/P_1_.M.T_-_Cover_card_1_recto_11.05.jpg?1156960799",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/0526/square_small/P_1_.M.T_-_Cover_card_1_recto_11.05.jpg?1156960799",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/0526/square_small/P_1_.M.T_-_Cover_card_1_recto_11.05.jpg?1156960799",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/0526/original/P_1_.M.T_-_Cover_card_1_recto_11.05.jpg?1156960799",
+                    "embed_url": "https://mx3.ch/t/8u/embed",
+                    "band": {
+                        "id": 81,
+                        "name": "P.M.T",
+                        "permalink": "https://mx3.ch/pmt",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0031/8560/square_small/over_the_red.jpg?1399407610",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0031/8560/square_small/over_the_red.jpg?1399407610",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0031/8560/square_small/over_the_red.jpg?1399407610",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0031/8560/original/over_the_red.jpg?1399407610",
+                        "categories": [
+                            {
+                                "id": 21,
+                                "name": "Metal Punk HxC"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 21,
+                        "name": "Metal Punk HxC"
+                    }
+                },
+                {
+                    "id": 431,
+                    "title": "test1",
+                    "permalink": "https://mx3.ch/t/6X",
+                    "album": null,
+                    "rating_count": null,
+                    "length": 8,
+                    "on_air": false,
+                    "url_for_download": null,
+                    "url_for_purchase": null,
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0032/2839/square_large/tv-head.png?1411419141",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0032/2839/square_small/tv-head.png?1411419141",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0032/2839/square_small/tv-head.png?1411419141",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0032/2839/original/tv-head.png?1411419141",
+                    "embed_url": "https://mx3.ch/t/6X/embed",
+                    "band": {
+                        "id": 101,
+                        "name": "Such Test",
+                        "permalink": "https://mx3.ch/wow",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0032/2839/square_small/tv-head.png?1411419141",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0032/2839/square_small/tv-head.png?1411419141",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0032/2839/square_small/tv-head.png?1411419141",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0032/2839/original/tv-head.png?1411419141",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 1,
+                        "name": "Chanson"
+                    }
+                },
+                {
+                    "id": 1181,
+                    "title": "Apple Bite",
+                    "permalink": "https://mx3.ch/t/j3",
+                    "album": "Colossus",
+                    "rating_count": null,
+                    "length": 181,
+                    "on_air": true,
+                    "url_for_download": null,
+                    "url_for_purchase": "http://www.cede.ch/de/music-cd/frames/frameset.cfm?iobj=BIGGLES&xsearch=1",
+                    "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0000/1181/square_large/01.jpg?1157030091",
+                    "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0000/1181/square_small/01.jpg?1157030091",
+                    "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0000/1181/square_small/01.jpg?1157030091",
+                    "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0000/1181/original/01.jpg?1157030091",
+                    "embed_url": "https://mx3.ch/t/j3/embed",
+                    "band": {
+                        "id": 141,
+                        "name": "Biggles",
+                        "permalink": "https://mx3.ch/biggles",
+                        "url_for_image_thumb": "https://mx3.ch/pictures/mx3/file/0089/4600/square_small/biggles_portrait_mirror.jpg?1536657057",
+                        "url_for_image_head": "https://mx3.ch/pictures/mx3/file/0089/4600/square_small/biggles_portrait_mirror.jpg?1536657057",
+                        "url_for_image_list": "https://mx3.ch/pictures/mx3/file/0089/4600/square_small/biggles_portrait_mirror.jpg?1536657057",
+                        "url_for_image_original": "https://mx3.ch/pictures/mx3/file/0089/4600/original/biggles_portrait_mirror.jpg?1536657057",
+                        "categories": [
+                            {
+                                "id": 41,
+                                "name": "Rock"
+                            }
+                        ]
+                    },
+                    "category": {
+                        "id": 41,
+                        "name": "Rock"
+                    }
+                }
+            ],
+            "public_page_url": null,
+            "embed_code_for_cube": null,
+            "pagination": null
+        }
+    }
+}
