@@ -16,15 +16,17 @@ function App() {
     const [searchText, setSearchText] = useState('')
     if (loadPage === 'PopularSingles') {
         return (
-            <>
+            <div>
             <NavBar 
               setLoadPage={setLoadPage}
-              setSearchText={setSearchText} > 
+              setSearchText={setSearchText} 
+              > 
             </NavBar> 
-            <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+            <div style={{'height': '10vh'}}></div>
+            <Container className={classes.margin}>
                 <h1> Popular Singles </h1>
                 <MapPopularSingles />
-            </Container></>
+            </Container></div>
 
         )
     }
@@ -36,7 +38,8 @@ function App() {
                     <>
                         <NavBar setLoadPage={setLoadPage}
                             setSearchText={setSearchText} > </NavBar>
-                        <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                            <div style={{'height': '10vh'}}></div>
+                        <Container className={classes.margin}>
                             <BandById bandId={searchText}
                             />
                         </Container>
@@ -51,7 +54,8 @@ function App() {
                 <NavBar setLoadPage={setLoadPage}
                     setSearchText={setSearchText} >
                 </NavBar>
-                <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                <div style={{'height': '10vh'}}></div>
+                <Container className={classes.margin}>
                     <h1 > Popular Bands </h1>
                     <MapPopularBands />
                 </Container>
@@ -66,7 +70,8 @@ function App() {
                     <>
                         <NavBar setLoadPage={setLoadPage}
                             setSearchText={setSearchText} > </NavBar>
-                        <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                            <div style={{'height': '10vh'}}></div>
+                        <Container className={classes.margin}>
                             <BandById bandId={searchText}
                             />
                         </Container>
@@ -77,7 +82,8 @@ function App() {
                 <>
                     <NavBar setLoadPage={setLoadPage}
                         setSearchText={setSearchText} > </NavBar>
-                    <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                        <div style={{'height': '10vh'}}></div>
+                    <Container className={classes.margin}>
                         <SearchBand searchText={searchText}
                         /> </Container>
                 </>
@@ -91,7 +97,8 @@ function App() {
                     <>
                         <NavBar setLoadPage={setLoadPage}
                             setSearchText={setSearchText} > </NavBar>
-                        <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                            <div style={{'height': '10vh'}}></div>
+                        <Container className={classes.margin}>
                             <MapGigsFromBand bandId={searchText} />
                         </Container>
                     </>
@@ -100,7 +107,8 @@ function App() {
             return (
                 <> < NavBar setLoadPage={setLoadPage}
                     setSearchText={setSearchText} > </NavBar>
-                    <Container style={{ display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap', 'marginTop': '5vh' }} className={classes.margin}>
+                    <div style={{'height': '10vh'}}></div>
+                    <Container style={{ display: 'flex', flexDirection: 'right', 'flexFlow': 'wrap' }} className={classes.margin}>
                         <GigsByBand searchText={searchText} />
                     </Container>
                 </ >
@@ -111,7 +119,8 @@ function App() {
         <>
             <NavBar setLoadPage={setLoadPage}
                 setSearchText={setSearchText} > </NavBar>
-            <Container className={classes.margin} style={{'marginTop': '5vh'}}>
+                <div style={{'height': '10vh'}}></div>
+            <Container className={classes.margin}>
                 <Row >
                     <BandById bandId="4176" />
                 </Row> <h2 > Popular Bands </h2>
