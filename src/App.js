@@ -32,7 +32,7 @@ function App() {
     }
     if (loadPage === 'BandById') {
         if (searchText) {
-            if (searchText.match(/[0-9]/)) {
+            if (isSearchTextNumber(searchText)) {
                 // if Text is id
                 return (
                     <>
@@ -64,7 +64,7 @@ function App() {
     }
     if (loadPage === 'SearchBand') {
         if (searchText) {
-            if (searchText.match(/[0-9]/)) {
+            if (isSearchTextNumber(searchText)) {
                 // if Text is id
                 return (
                     <>
@@ -92,7 +92,7 @@ function App() {
     }
     if (loadPage === 'GigsbyBand') {
         if (searchText) {
-            if (searchText.match(/[0-9]/)) {
+            if (isSearchTextNumber(searchText)) {
                 return (
                     <>
                         <NavBar setLoadPage={setLoadPage}
@@ -129,6 +129,13 @@ function App() {
         </>
     )
 
+}
+
+function isSearchTextNumber(searchText) {
+    if(searchText.match(/[0-9]/)) {
+        return true
+    } 
+    return false
 }
 
 export default App;
